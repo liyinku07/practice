@@ -1,0 +1,39 @@
+p{
+    font-size: 20px;
+    text-indent: -1em;
+    background-color: #ccc;
+    padding: 1em 1em 1em 2em;
+}
+p .fa{
+    width: 0.8em;
+    margin: 0;
+    padding: 0;
+    text-indent: 0em;
+}
+
+/*大型背景影像*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home{
+    /* background-image: url(../images/main-bg.jpg),linear-gradient(#c9ffbf,rgb(144, 85, 156));
+    background-blend-mode: luminosity; */
+    /* background-image: linear-gradient(#c9ffbf 0%,#ffafbd 100%); */
+    /* background-image: linear-gradient(120deg,#F00,#FF0); */
+    /* background-image: radial-gradient(100px 50px ellipse at center center,#90DCEF 50%,#106DEE 100%); */
+    background-image: radial-gradient(100% 100% ellipse at center,#90dcef 10%,#106dee 10% 20%,#90dcef 20% 30%);
+    /* background-image: 
+    linear-gradient(115deg,#ccc 50%,transparent 50%),
+    url(../images/main-bg.jpg); */
+    /* background: linear-gradient(#F00 0%,30%,#FF0 100%); */
+    /* background-color: #0bd;
+    background-blend-mode: hard-light; */
+    min-height: 100vh;
+}
+
+
+#home.page-title{
+    text-transform: none;
+}

@@ -1,0 +1,22 @@
+.heading {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.heading::before,
+.heading::after{
+    content: "  ";
+    width:15px;
+    height:15px;
+}
+.heading::before {
+    margin: 20px 30px 0 0;
+    border-top: 15px solid #e5c046;
+    border-left: 15px solid #c4990a;
+}
+.heading::after {
+    margin:0 0 -80px 30px;
+    border-right: 15px solid #c4990a;
+    border-bottom: 15px solid #e5c046;
+}
